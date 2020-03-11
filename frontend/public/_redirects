@@ -1,0 +1,11 @@
+# Redirect default Netlify subdomain to primary domain
+https://folloing.netlify.com/* https://www.folloing.com/:splat 301!
+
+# Fetch from flask
+/api/* https://folloing.herokuapp.com/api/:splat 200
+/wake/* https://folloing.herokuapp.com/wake/:splat 200
+/analyze/* https://folloing.herokuapp.com/analyze/:splat 200
+
+# Redirect all path that are not found to homepage
+/* /index.html 200
+
