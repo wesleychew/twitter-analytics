@@ -32,3 +32,15 @@ Did a general NLP preprocessing, removing stopwords, lower case, remove urls, em
 
 Deployed model to website [here](https://folloing.com) with Heroku. It takes a while to generate results as tweets are being scrapped on the fly. Page Should be loaded within 30 seconds. If it is not loaded, it means heroku server is experiencing high traffic.
 
+### Screenshots
+
+![image](https://user-images.githubusercontent.com/46838305/76443882-13029200-63fe-11ea-9c4a-5d0796044606.png)
+
+
+
+<img width="842" alt="Screenshot-2" src="https://user-images.githubusercontent.com/46838305/76443962-33325100-63fe-11ea-922f-698e46a720cd.png">
+
+<img width="849" alt="Screenshot-3" src="https://user-images.githubusercontent.com/46838305/76443998-42b19a00-63fe-11ea-8f67-b311e16fcb56.png">
+
+<img width="846" alt="Screenshot-4" src="https://user-images.githubusercontent.com/46838305/76444067-5ceb7800-63fe-11ea-9712-f23b3a78e5b2.png">
+
