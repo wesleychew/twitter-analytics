@@ -165,12 +165,11 @@ function Analyze(props) {
           <SearchAppBar />
           {fetching ? (
             <div>
-              <LoadingBar interval={1} progress={300} col={"secondary"} />
               <LoadingBar interval={1.5} progress={300} col={"primary"} />
               <p style={{ marginLeft: 12 }}>
-                Fetching tweets... If page is not loaded after the red loading
-                bar finished loading, it means website is experiencing high
-                traffic and needs to be reloaded.
+                Fetching tweets... If page is not loaded after loading bar
+                reaches the end, it means website is experiencing high traffic
+                and needs to be reloaded.
               </p>
             </div>
           ) : (
