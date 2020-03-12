@@ -466,7 +466,10 @@ function Analyze(props) {
                         }
                         arrow
                       >
-                        <a key={i} href={"https://folloing.com/" + item[0]}>
+                        <a
+                          key={i}
+                          href={"https://folloing.com/user/" + item[0]}
+                        >
                           <img
                             src={"https://twitter-avatar.now.sh/" + item[0]}
                             style={style.MentionImage}
